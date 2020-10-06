@@ -1,0 +1,25 @@
+ int bitwiseComplement(int N) {
+        
+        if(N==0)
+            return 1;
+       // cout<<n;
+        int n=log2(N)+1;
+        
+        
+        int a=0,i=0;
+        while(n)
+        {
+            int x=pow(2,i);
+            a+=x;
+            cout<<x;
+            n--;i++;
+         
+        }
+      //  a++;
+       // cout<<a;
+        
+        
+        return N^a;
+        
+        
+    }
