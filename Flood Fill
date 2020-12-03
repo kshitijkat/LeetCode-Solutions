@@ -1,0 +1,63 @@
+struct cell
+{
+    int x;
+    int y;
+    int colour;
+   // cell();
+    cell(int x1,int y1,int colour1)
+    {
+        x=x1;
+        y=y1;
+        colour=colour1;
+    }
+};
+class Solution {
+public:
+    bool issafe(int a,int b,int n,int m)
+    {
+        if(a>=0&&a<=n-1&&b>=0&&b<=m-1)
+            return true;
+        
+        return false;
+    }
+    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int newcolour)
+    {
+        int arr1[4]={-1,0,0,1};
+        int arr2[4]={0,-1,1,0};
+        int a,b;
+        int n=image.size();
+        int m=image[0].size();
+        bool visited[n][m];
+        
+        for(int i=0;i<n;i++)
+        {
+            for(int j=0;j<m;j++)
+                visited[i][j]=false;
+        }
+        int icolour=image[sr][sc];
+        queue<cell> q;
+        
+        q.push(cell(sr,sc,icolour));
+        visited[sr][sc]=true;
+        image[sr][sc]=newcolour;
+        
+        while(!q.empty())
+        {
+            cell t=q.front();
+            q.pop();
+            
+            for(int i=0;i<4;i++)
+            {
+                a=t.x+arr1[i];
+                b=t.y+arr2[i];
+                if(issafe(a,b,n,m)&&!visited[a][b]&&image[a][b]==icolour)
+                {
+                    visited[a][b]=true;
+                    q.push(cell(a,b,icolour));
+                    image[a][b]=newcolour;
+                }
+            }
+        }
+        return image;     
+    }
+};
