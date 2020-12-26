@@ -7,7 +7,7 @@ This repository contains some useful codes, techniques, algorithms, data structu
 
 Language: C++
 
-List of solutions:
+List of solutions:-
 
 Complement of Base 10 Integer
 
