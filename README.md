@@ -5,7 +5,8 @@
 
 This repository contains some useful codes, techniques, algorithms, data structures and problem solutions of LeetCode problems.
 
-##  Language: C++
+##  Language:-
+C++
 
 ##  List of solutions:-
 
