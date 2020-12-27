@@ -1,13 +1,13 @@
 # LeetCode-Solutions
 
 
-What you may learn here?
+# What you may learn here?
 
 This repository contains some useful codes, techniques, algorithms, data structures and problem solutions of LeetCode problems.
 
-Language: C++
+# Language: C++
 
-List of solutions:-
+# List of solutions:-
 
 Complement of Base 10 Integer
 
