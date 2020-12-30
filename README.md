@@ -10,24 +10,24 @@ C++
 
 ##  List of solutions:-
 
-Complement of Base 10 Integer
+1-Complement of Base 10 Integer
 
-Contains Duplicate III
+2-Contains Duplicate III
 
-Flood Fill
+3-Flood Fill
 
-Insert into a Binary Search Tree
+4-Insert into a Binary Search Tree
 
-K-diff Pairs in an Array
+5-K-diff Pairs in an Array
 
-Largest Time for Given Digits
+6-Largest Time for Given Digits
 
-Number of Operations to Make Network Connected
+7-Number of Operations to Make Network Connected
 
-Remove Covered Intervals
+8-Remove Covered Intervals
 
-Repeated Substring Pattern
+9-Repeated Substring Pattern
 
-Rotting Oranges
+10-Rotting Oranges
 
-Word Ladder
+11-Word Ladder
