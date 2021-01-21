@@ -24,7 +24,7 @@ C++
 
 7-Number of Operations to Make Network Connected
 
-8-Remove Covered Intervals
+8-Remove Covered intervals
 
 9-Repeated Substring Pattern
 
