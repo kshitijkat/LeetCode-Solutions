@@ -31,3 +31,7 @@ C++
 10-Rotting Oranges
 
 11-Word Ladder
+
+12-Construct Binary Tree from Inorder and Postorder Traversal
+
+13-Flatten Binary Tree to Linked List
